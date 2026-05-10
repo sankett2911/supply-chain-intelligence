@@ -280,16 +280,16 @@ with tab4:
     r1c1,r1c2 = st.columns(2)
     with r1c1:
         st.markdown('<div class="sec">Avg Forecast by Industry (Next 12 Weeks)</div>', unsafe_allow_html=True)
-        fcast_ind = forecast.merge(skus[['SKU_ID','INDUSTRY']], on='SKU_ID', how='left').dropna()
-        fcast_ind_agg = fcast_ind.groupby('INDUSTRY')['DEMAND_FORECAST'].mean().reset_index() if not fcast_ind.empty else pd.DataFrame(columns=['INDUSTRY','DEMAND_FORECAST'])
-        fig12 = px.bar(fcast_ind_agg.sort_values('DEMAND_FORECAST'), x='DEMAND_FORECAST', y='INDUSTRY',
+        fcast_merged = forecast.merge(skus[['SKU_ID','INDUSTRY']], on='SKU_ID', how='inner')
+        fcast_ind_agg = fcast_merged.groupby('INDUSTRY')['DEMAND_FORECAST'].mean().reset_index() if len(fcast_merged) > 0 else pd.DataFrame(columns=['INDUSTRY','DEMAND_FORECAST'])
+        fig12 = px.bar(fcast_ind_agg.sort_values('DEMAND_FORECAST') if len(fcast_ind_agg) > 0 else fcast_ind_agg, x='DEMAND_FORECAST', y='INDUSTRY',
                        orientation='h', color='INDUSTRY', color_discrete_map=IND_COLORS,
                        labels={'DEMAND_FORECAST':'Avg Weekly Demand Forecast','INDUSTRY':''})
         fig12.update_layout(height=280, margin=dict(t=10,b=10,l=10,r=10), plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)', showlegend=False)
         st.plotly_chart(fig12, use_container_width=True)
     with r1c2:
         st.markdown('<div class="sec">Forecast Trend Direction</div>', unsafe_allow_html=True)
-        trend_data = forecast.merge(skus[['SKU_ID','INDUSTRY']], on='SKU_ID', how='left').dropna().groupby('INDUSTRY')['TREND'].mean().reset_index()
+        trend_data = forecast.merge(skus[['SKU_ID','INDUSTRY']], on='SKU_ID', how='inner').groupby('INDUSTRY')['TREND'].mean().reset_index()
         trend_data['direction'] = trend_data['TREND'].apply(lambda x: '↑ Growing' if x > 0.1 else ('↓ Declining' if x < -0.1 else '→ Stable'))
         trend_data['color'] = trend_data['TREND'].apply(lambda x: '#16a34a' if x > 0.1 else ('#e11d48' if x < -0.1 else '#d97706'))
         fig13 = px.bar(trend_data, x='TREND', y='INDUSTRY', orientation='h',
