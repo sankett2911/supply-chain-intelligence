@@ -339,18 +339,25 @@ with tab5:
         st.plotly_chart(fig15, use_container_width=True)
 
     st.markdown('<div class="sec">At-Risk SKUs — Low Stock + High Criticality</div>', unsafe_allow_html=True)
-    at_risk = latest_inv2.merge(skus[['SKU_ID','SKU_NAME','CRITICALITY','REORDER_POINT','SAFETY_STOCK','PRIMARY_SUPPLIER','INDUSTRY']], on='SKU_ID')
-    at_risk = at_risk[
-        (at_risk['STOCK_LEVEL'] < at_risk['REORDER_POINT']) &
-        (at_risk['CRITICALITY'].isin(['Critical','High']))
-    ].sort_values('DAYS_OF_SUPPLY')
-    if sel_ind != "All Industries":
-        at_risk = at_risk[at_risk['INDUSTRY'] == sel_ind]
-    disp_risk = at_risk[['SKU_NAME','INDUSTRY','CRITICALITY','STOCK_LEVEL','REORDER_POINT','DAYS_OF_SUPPLY','FILL_RATE']].head(40).copy()
-    disp_risk['FILL_RATE'] = (disp_risk['FILL_RATE']*100).round(1).astype(str)+'%'
-    disp_risk['DAYS_OF_SUPPLY'] = disp_risk['DAYS_OF_SUPPLY'].round(1)
-    disp_risk.columns = ['SKU','Industry','Criticality','Stock','Reorder Point','Days of Supply','Fill Rate']
-    st.dataframe(disp_risk, use_container_width=True, height=340, hide_index=True)
+    try:
+        at_risk = latest_inv2.merge(skus[['SKU_ID','SKU_NAME','CRITICALITY','REORDER_POINT','SAFETY_STOCK','PRIMARY_SUPPLIER','INDUSTRY']], on='SKU_ID')
+        at_risk = at_risk[
+            (at_risk['STOCK_LEVEL'] < at_risk['REORDER_POINT']) &
+            (at_risk['CRITICALITY'].isin(['Critical','High']))
+        ].sort_values('DAYS_OF_SUPPLY')
+        if sel_ind != "All Industries":
+            at_risk = at_risk[at_risk['INDUSTRY'] == sel_ind]
+        cols_needed = ['SKU_NAME','INDUSTRY','CRITICALITY','STOCK_LEVEL','REORDER_POINT','DAYS_OF_SUPPLY']
+        if 'FILL_RATE' in at_risk.columns:
+            cols_needed.append('FILL_RATE')
+        disp_risk = at_risk[cols_needed].head(40).copy()
+        if 'FILL_RATE' in disp_risk.columns:
+            disp_risk['FILL_RATE'] = (disp_risk['FILL_RATE']*100).round(1).astype(str)+'%'
+        disp_risk['DAYS_OF_SUPPLY'] = disp_risk['DAYS_OF_SUPPLY'].round(1)
+        disp_risk.columns = ['SKU','Industry','Criticality','Stock','Reorder Point','Days of Supply'] + (['Fill Rate'] if 'FILL_RATE' in at_risk.columns else [])
+        st.dataframe(disp_risk, use_container_width=True, height=340, hide_index=True)
+    except Exception as e:
+        st.warning(f"At-risk table unavailable: {e}")
 
     st.markdown('<div class="sec">Single-Source Supplier Risk</div>', unsafe_allow_html=True)
     ss_sups = filt_sup[filt_sup['SINGLE_SOURCE']==1][['SUPPLIER_ID','SUPPLIER_NAME','INDUSTRY','REGION','TIER','RISK_LEVEL','ANNUAL_SPEND']].copy()
