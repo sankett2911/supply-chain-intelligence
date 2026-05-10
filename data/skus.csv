@@ -1,0 +1,501 @@
+SKU_ID,SKU_NAME,INDUSTRY,CATEGORY,PRIMARY_SUPPLIER,UNIT_COST,REORDER_POINT,SAFETY_STOCK,MAX_STOCK,LEAD_TIME_DAYS,CRITICALITY
+SKU10000,Automotive Product 1,Automotive,Component,SUP1030,299.31,171,45,744,39,Medium
+SKU10001,Healthcare Product 2,Healthcare,Component,SUP1138,40.34,250,56,959,15,Medium
+SKU10002,Apparel Product 3,Apparel,Raw Material,SUP1164,96.49,493,129,2630,38,Low
+SKU10003,Apparel Product 4,Apparel,Finished Good,SUP1022,345.89,371,160,2103,53,Medium
+SKU10004,Industrial Product 5,Industrial,Finished Good,SUP1004,14.21,77,35,439,20,Medium
+SKU10005,Industrial Product 6,Industrial,Raw Material,SUP1059,14.1,150,41,1159,24,Medium
+SKU10006,Automotive Product 7,Automotive,Raw Material,SUP1174,57.15,344,132,2690,28,Low
+SKU10007,Grocery Product 8,Grocery,Component,SUP1057,16.57,185,58,1146,1,Low
+SKU10008,Automotive Product 9,Automotive,Finished Good,SUP1124,141.65,367,172,2886,33,Low
+SKU10009,Industrial Product 10,Industrial,Component,SUP1004,59.05,268,75,1595,22,Low
+SKU10010,Electronics Product 11,Electronics,Finished Good,SUP1007,16.01,420,182,2047,24,Medium
+SKU10011,Apparel Product 12,Apparel,Packaging,SUP1076,32.65,237,49,1297,48,High
+SKU10012,Industrial Product 13,Industrial,Finished Good,SUP1119,108.52,51,19,164,12,Medium
+SKU10013,Healthcare Product 14,Healthcare,Component,SUP1131,38.11,278,92,2074,13,High
+SKU10014,Electronics Product 15,Electronics,Component,SUP1074,23.33,269,121,1195,20,Low
+SKU10015,Healthcare Product 16,Healthcare,Component,SUP1128,214.97,247,101,1129,11,High
+SKU10016,Healthcare Product 17,Healthcare,Packaging,SUP1196,398.36,343,95,1174,16,Medium
+SKU10017,Electronics Product 18,Electronics,Finished Good,SUP1074,38.19,50,15,286,18,Low
+SKU10018,Automotive Product 19,Automotive,Finished Good,SUP1217,252.0,356,144,2617,28,Low
+SKU10019,Automotive Product 20,Automotive,Packaging,SUP1189,175.37,467,161,2277,32,High
+SKU10020,Automotive Product 21,Automotive,Raw Material,SUP1176,5.67,71,26,343,32,High
+SKU10021,Healthcare Product 22,Healthcare,Finished Good,SUP1097,34.56,463,197,3107,16,High
+SKU10022,Grocery Product 23,Grocery,Finished Good,SUP1151,34.26,390,139,2311,3,Critical
+SKU10023,Electronics Product 24,Electronics,Finished Good,SUP1156,189.92,398,92,1609,24,Critical
+SKU10024,Healthcare Product 25,Healthcare,Component,SUP1205,14.63,198,67,1355,13,Critical
+SKU10025,Grocery Product 26,Grocery,Component,SUP1099,28.32,422,102,1767,3,Low
+SKU10026,Healthcare Product 27,Healthcare,Component,SUP1112,200.76,210,57,709,7,Medium
+SKU10027,Automotive Product 28,Automotive,Component,SUP1011,15.45,205,79,837,25,High
+SKU10028,Electronics Product 29,Electronics,Component,SUP1064,93.66,419,189,2359,29,Medium
+SKU10029,Industrial Product 30,Industrial,Finished Good,SUP1046,51.27,217,95,652,23,High
+SKU10030,Grocery Product 31,Grocery,Raw Material,SUP1088,28.98,262,129,1270,11,Medium
+SKU10031,Electronics Product 32,Electronics,Component,SUP1024,73.08,181,88,543,28,High
+SKU10032,Grocery Product 33,Grocery,Packaging,SUP1088,316.28,270,95,2039,16,Medium
+SKU10033,Automotive Product 34,Automotive,Finished Good,SUP1026,70.96,400,176,1270,31,Medium
+SKU10034,Electronics Product 35,Electronics,Raw Material,SUP1171,43.4,395,95,1855,24,Medium
+SKU10035,Industrial Product 36,Industrial,Raw Material,SUP1012,78.35,51,17,380,17,Low
+SKU10036,Healthcare Product 37,Healthcare,Component,SUP1154,105.36,113,38,858,19,Low
+SKU10037,Apparel Product 38,Apparel,Raw Material,SUP1206,103.32,184,85,798,39,Medium
+SKU10038,Industrial Product 39,Industrial,Component,SUP1115,15.65,405,148,2807,7,Medium
+SKU10039,Grocery Product 40,Grocery,Packaging,SUP1087,3.08,177,41,1204,3,Medium
+SKU10040,Industrial Product 41,Industrial,Raw Material,SUP1136,24.51,227,51,952,14,Low
+SKU10041,Industrial Product 42,Industrial,Component,SUP1147,146.73,223,62,1048,26,High
+SKU10042,Healthcare Product 43,Healthcare,Packaging,SUP1179,103.24,470,132,1678,18,Low
+SKU10043,Industrial Product 44,Industrial,Finished Good,SUP1118,151.78,483,195,1654,16,High
+SKU10044,Industrial Product 45,Industrial,Component,SUP1115,45.82,425,110,2568,13,High
+SKU10045,Electronics Product 46,Electronics,Finished Good,SUP1133,308.67,267,132,1908,17,Medium
+SKU10046,Grocery Product 47,Grocery,Component,SUP1172,22.5,272,95,1782,9,Low
+SKU10047,Industrial Product 48,Industrial,Raw Material,SUP1136,29.42,387,154,1334,24,Low
+SKU10048,Electronics Product 49,Electronics,Raw Material,SUP1207,49.36,205,94,1357,21,Critical
+SKU10049,Healthcare Product 50,Healthcare,Raw Material,SUP1065,64.5,118,56,403,14,Low
+SKU10050,Healthcare Product 51,Healthcare,Packaging,SUP1096,44.17,203,78,1539,13,High
+SKU10051,Electronics Product 52,Electronics,Component,SUP1156,125.6,421,85,2324,17,High
+SKU10052,Healthcare Product 53,Healthcare,Raw Material,SUP1116,20.88,341,116,1837,6,Critical
+SKU10053,Healthcare Product 54,Healthcare,Packaging,SUP1112,147.76,242,50,1881,16,Critical
+SKU10054,Apparel Product 55,Apparel,Raw Material,SUP1195,28.72,448,189,3093,49,Low
+SKU10055,Grocery Product 56,Grocery,Component,SUP1014,20.54,406,164,1266,0,Low
+SKU10056,Healthcare Product 57,Healthcare,Packaging,SUP1163,25.19,289,71,2100,14,Medium
+SKU10057,Electronics Product 58,Electronics,Finished Good,SUP1156,10.02,320,114,2455,22,Medium
+SKU10058,Automotive Product 59,Automotive,Finished Good,SUP1176,81.84,297,89,1240,31,High
+SKU10059,Automotive Product 60,Automotive,Packaging,SUP1110,29.56,158,75,898,28,High
+SKU10060,Grocery Product 61,Grocery,Component,SUP1160,3.46,197,73,1016,9,Low
+SKU10061,Automotive Product 62,Automotive,Raw Material,SUP1215,22.31,370,130,1636,32,Low
+SKU10062,Grocery Product 63,Grocery,Packaging,SUP1081,119.43,494,179,1655,0,Medium
+SKU10063,Grocery Product 64,Grocery,Raw Material,SUP1127,55.0,464,117,3149,6,Low
+SKU10064,Automotive Product 65,Automotive,Component,SUP1142,10.09,200,72,1079,19,High
+SKU10065,Industrial Product 66,Industrial,Component,SUP1136,20.09,194,89,750,17,Low
+SKU10066,Grocery Product 67,Grocery,Raw Material,SUP1031,417.33,145,45,916,11,High
+SKU10067,Grocery Product 68,Grocery,Component,SUP1086,114.81,482,238,3075,9,High
+SKU10068,Automotive Product 69,Automotive,Raw Material,SUP1189,85.75,169,37,591,35,High
+SKU10069,Automotive Product 70,Automotive,Raw Material,SUP1013,113.6,146,55,927,32,Medium
+SKU10070,Grocery Product 71,Grocery,Raw Material,SUP1043,51.71,348,98,1393,7,Critical
+SKU10071,Healthcare Product 72,Healthcare,Packaging,SUP1025,18.13,407,141,1950,16,High
+SKU10072,Industrial Product 73,Industrial,Raw Material,SUP1050,11.22,475,105,1546,29,Critical
+SKU10073,Industrial Product 74,Industrial,Component,SUP1219,52.93,344,114,2245,7,High
+SKU10074,Apparel Product 75,Apparel,Finished Good,SUP1022,48.22,53,17,384,47,Medium
+SKU10075,Grocery Product 76,Grocery,Component,SUP1129,7.47,296,99,1418,0,High
+SKU10076,Industrial Product 77,Industrial,Component,SUP1145,17.07,76,32,402,18,Medium
+SKU10077,Apparel Product 78,Apparel,Component,SUP1120,106.66,287,68,2113,49,Critical
+SKU10078,Automotive Product 79,Automotive,Component,SUP1052,16.86,320,138,1209,30,High
+SKU10079,Grocery Product 80,Grocery,Component,SUP1040,17.8,69,30,356,10,Medium
+SKU10080,Grocery Product 81,Grocery,Raw Material,SUP1188,8.05,65,20,412,0,High
+SKU10081,Apparel Product 82,Apparel,Component,SUP1195,97.45,265,55,1672,41,Critical
+SKU10082,Grocery Product 83,Grocery,Component,SUP1199,15.36,308,103,2291,7,Critical
+SKU10083,Electronics Product 84,Electronics,Packaging,SUP1135,27.21,190,71,1368,17,Medium
+SKU10084,Electronics Product 85,Electronics,Finished Good,SUP1064,178.59,248,52,791,20,High
+SKU10085,Apparel Product 86,Apparel,Raw Material,SUP1214,44.1,419,108,2959,52,Medium
+SKU10086,Grocery Product 87,Grocery,Raw Material,SUP1146,201.29,352,144,2549,2,Medium
+SKU10087,Healthcare Product 88,Healthcare,Component,SUP1096,27.11,145,41,443,12,Medium
+SKU10088,Healthcare Product 89,Healthcare,Component,SUP1128,57.57,384,117,1168,18,Critical
+SKU10089,Automotive Product 90,Automotive,Packaging,SUP1144,16.79,379,128,1999,29,Medium
+SKU10090,Industrial Product 91,Industrial,Component,SUP1012,112.77,138,46,564,23,Low
+SKU10091,Healthcare Product 92,Healthcare,Packaging,SUP1061,29.29,357,178,1403,20,Critical
+SKU10092,Apparel Product 93,Apparel,Finished Good,SUP1193,15.98,177,72,581,36,Critical
+SKU10093,Electronics Product 94,Electronics,Component,SUP1192,33.4,343,137,1867,21,High
+SKU10094,Grocery Product 95,Grocery,Packaging,SUP1123,27.39,163,57,500,11,High
+SKU10095,Industrial Product 96,Industrial,Raw Material,SUP1012,3.91,126,55,424,14,Medium
+SKU10096,Apparel Product 97,Apparel,Component,SUP1214,26.04,375,164,2645,43,Low
+SKU10097,Automotive Product 98,Automotive,Component,SUP1217,13.6,59,19,239,38,High
+SKU10098,Industrial Product 99,Industrial,Raw Material,SUP1004,18.38,418,172,2145,29,Medium
+SKU10099,Automotive Product 100,Automotive,Component,SUP1201,309.95,243,73,1480,20,Low
+SKU10100,Healthcare Product 101,Healthcare,Component,SUP1060,106.26,79,32,581,19,Medium
+SKU10101,Automotive Product 102,Automotive,Raw Material,SUP1058,13.67,433,171,2945,40,Low
+SKU10102,Grocery Product 103,Grocery,Finished Good,SUP1153,22.56,348,162,1433,7,Low
+SKU10103,Healthcare Product 104,Healthcare,Raw Material,SUP1005,106.99,344,169,2316,2,Medium
+SKU10104,Apparel Product 105,Apparel,Finished Good,SUP1028,159.06,463,175,3378,37,Critical
+SKU10105,Apparel Product 106,Apparel,Finished Good,SUP1076,54.57,452,93,2729,53,Medium
+SKU10106,Automotive Product 107,Automotive,Component,SUP1078,36.61,496,162,2050,30,Medium
+SKU10107,Healthcare Product 108,Healthcare,Raw Material,SUP1096,63.18,317,150,2469,13,Low
+SKU10108,Industrial Product 109,Industrial,Raw Material,SUP1059,6.99,493,180,2332,18,Medium
+SKU10109,Automotive Product 110,Automotive,Component,SUP1189,69.06,236,69,1722,25,High
+SKU10110,Industrial Product 111,Industrial,Component,SUP1219,39.37,421,133,1575,17,High
+SKU10111,Healthcare Product 112,Healthcare,Raw Material,SUP1005,253.58,126,28,524,11,Medium
+SKU10112,Apparel Product 113,Apparel,Component,SUP1084,40.46,269,98,1483,50,Low
+SKU10113,Healthcare Product 114,Healthcare,Raw Material,SUP1163,129.29,193,44,958,18,High
+SKU10114,Automotive Product 115,Automotive,Raw Material,SUP1052,34.09,75,16,336,33,Medium
+SKU10115,Grocery Product 116,Grocery,Component,SUP1020,2.5,60,26,292,1,High
+SKU10116,Automotive Product 117,Automotive,Finished Good,SUP1054,37.87,481,237,3761,33,Medium
+SKU10117,Grocery Product 118,Grocery,Component,SUP1035,417.62,214,73,1179,6,Critical
+SKU10118,Grocery Product 119,Grocery,Raw Material,SUP1137,3.69,270,71,1566,2,High
+SKU10119,Automotive Product 120,Automotive,Raw Material,SUP1016,11.17,306,93,2208,25,Medium
+SKU10120,Industrial Product 121,Industrial,Finished Good,SUP1046,25.35,196,46,676,19,Medium
+SKU10121,Apparel Product 122,Apparel,Component,SUP1055,50.76,155,48,963,42,Critical
+SKU10122,Industrial Product 123,Industrial,Finished Good,SUP1039,49.95,174,56,817,13,Medium
+SKU10123,Electronics Product 124,Electronics,Packaging,SUP1207,52.75,427,94,3067,20,Low
+SKU10124,Grocery Product 125,Grocery,Finished Good,SUP1020,90.13,149,69,522,3,Critical
+SKU10125,Electronics Product 126,Electronics,Raw Material,SUP1009,60.54,201,56,882,19,High
+SKU10126,Electronics Product 127,Electronics,Component,SUP1204,34.11,206,95,1223,25,Critical
+SKU10127,Electronics Product 128,Electronics,Packaging,SUP1021,53.8,219,102,699,25,Low
+SKU10128,Grocery Product 129,Grocery,Raw Material,SUP1185,82.77,250,55,1617,17,High
+SKU10129,Industrial Product 130,Industrial,Component,SUP1190,17.15,60,21,360,18,Medium
+SKU10130,Electronics Product 131,Electronics,Finished Good,SUP1187,14.63,65,31,247,24,Low
+SKU10131,Electronics Product 132,Electronics,Raw Material,SUP1009,30.1,269,84,1471,25,Low
+SKU10132,Automotive Product 133,Automotive,Finished Good,SUP1098,9.02,301,110,2126,22,High
+SKU10133,Automotive Product 134,Automotive,Component,SUP1111,286.25,262,85,839,40,Medium
+SKU10134,Healthcare Product 135,Healthcare,Finished Good,SUP1104,196.92,413,152,1638,22,Medium
+SKU10135,Healthcare Product 136,Healthcare,Raw Material,SUP1113,22.75,98,37,568,9,Medium
+SKU10136,Automotive Product 137,Automotive,Raw Material,SUP1183,80.24,328,82,2428,20,Medium
+SKU10137,Apparel Product 138,Apparel,Finished Good,SUP1082,133.64,478,116,1481,42,Low
+SKU10138,Healthcare Product 139,Healthcare,Component,SUP1113,25.76,310,116,1729,9,Medium
+SKU10139,Healthcare Product 140,Healthcare,Finished Good,SUP1025,22.66,339,75,2501,12,Low
+SKU10140,Healthcare Product 141,Healthcare,Finished Good,SUP1196,13.15,496,128,2918,14,Medium
+SKU10141,Grocery Product 142,Grocery,Component,SUP1047,11.53,188,81,699,4,Medium
+SKU10142,Apparel Product 143,Apparel,Raw Material,SUP1152,159.88,149,55,853,49,High
+SKU10143,Automotive Product 144,Automotive,Finished Good,SUP1211,77.63,407,131,3127,23,Medium
+SKU10144,Grocery Product 145,Grocery,Raw Material,SUP1066,24.54,135,44,972,11,Medium
+SKU10145,Electronics Product 146,Electronics,Component,SUP1009,34.9,296,70,2095,13,Medium
+SKU10146,Automotive Product 147,Automotive,Component,SUP1124,6.75,391,173,2175,30,Medium
+SKU10147,Electronics Product 148,Electronics,Component,SUP1187,9.79,151,61,490,20,Low
+SKU10148,Healthcare Product 149,Healthcare,Packaging,SUP1001,92.99,419,156,3080,3,Medium
+SKU10149,Industrial Product 150,Industrial,Raw Material,SUP1109,37.31,469,186,2928,14,High
+SKU10150,Electronics Product 151,Electronics,Packaging,SUP1182,64.35,269,61,808,26,Medium
+SKU10151,Industrial Product 152,Industrial,Finished Good,SUP1212,32.77,410,185,1796,18,Critical
+SKU10152,Healthcare Product 153,Healthcare,Packaging,SUP1126,20.45,469,177,2534,22,Low
+SKU10153,Healthcare Product 154,Healthcare,Packaging,SUP1143,22.92,240,72,1879,19,Low
+SKU10154,Electronics Product 155,Electronics,Component,SUP1105,70.97,65,20,489,16,Low
+SKU10155,Automotive Product 156,Automotive,Component,SUP1100,26.65,196,58,996,25,Medium
+SKU10156,Apparel Product 157,Apparel,Finished Good,SUP1159,51.67,102,45,522,51,Low
+SKU10157,Industrial Product 158,Industrial,Raw Material,SUP1059,82.43,246,66,1696,14,Low
+SKU10158,Electronics Product 159,Electronics,Component,SUP1192,3.98,318,108,2413,13,Low
+SKU10159,Electronics Product 160,Electronics,Component,SUP1171,115.39,430,179,2949,19,Medium
+SKU10160,Apparel Product 161,Apparel,Finished Good,SUP1191,44.58,427,136,2517,46,High
+SKU10161,Grocery Product 162,Grocery,Finished Good,SUP1129,99.21,252,110,1522,0,High
+SKU10162,Grocery Product 163,Grocery,Component,SUP1123,10.71,119,25,836,5,High
+SKU10163,Apparel Product 164,Apparel,Finished Good,SUP1002,11.04,321,115,2205,49,Critical
+SKU10164,Apparel Product 165,Apparel,Packaging,SUP1214,26.46,471,204,3103,46,Low
+SKU10165,Healthcare Product 166,Healthcare,Finished Good,SUP1063,66.33,368,147,1497,11,Low
+SKU10166,Electronics Product 167,Electronics,Finished Good,SUP1141,29.54,332,72,2558,31,High
+SKU10167,Grocery Product 168,Grocery,Finished Good,SUP1081,84.13,459,121,3297,0,Medium
+SKU10168,Electronics Product 169,Electronics,Finished Good,SUP1090,27.41,204,53,1004,27,Low
+SKU10169,Grocery Product 170,Grocery,Raw Material,SUP1106,8.03,403,157,2649,11,Low
+SKU10170,Industrial Product 171,Industrial,Packaging,SUP1075,14.46,364,115,2599,19,Critical
+SKU10171,Apparel Product 172,Apparel,Component,SUP1169,18.0,287,72,1305,38,Medium
+SKU10172,Grocery Product 173,Grocery,Packaging,SUP1043,29.2,216,49,1420,6,Medium
+SKU10173,Grocery Product 174,Grocery,Packaging,SUP1086,164.25,292,110,1132,15,Low
+SKU10174,Apparel Product 175,Apparel,Component,SUP1203,20.41,235,83,1345,45,Low
+SKU10175,Industrial Product 176,Industrial,Raw Material,SUP1197,72.09,454,99,1658,22,Medium
+SKU10176,Grocery Product 177,Grocery,Finished Good,SUP1042,39.59,94,24,363,5,Medium
+SKU10177,Apparel Product 178,Apparel,Component,SUP1159,46.72,73,31,444,42,Critical
+SKU10178,Apparel Product 179,Apparel,Component,SUP1082,41.11,229,72,1633,48,Medium
+SKU10179,Healthcare Product 180,Healthcare,Packaging,SUP1001,9.71,260,111,1347,8,High
+SKU10180,Healthcare Product 181,Healthcare,Raw Material,SUP1032,10.59,247,63,873,14,Low
+SKU10181,Electronics Product 182,Electronics,Raw Material,SUP1033,158.06,484,105,3520,24,Medium
+SKU10182,Electronics Product 183,Electronics,Packaging,SUP1140,19.16,141,63,486,21,Medium
+SKU10183,Electronics Product 184,Electronics,Component,SUP1141,34.73,333,130,2658,17,Low
+SKU10184,Electronics Product 185,Electronics,Raw Material,SUP1192,34.44,249,84,1369,19,High
+SKU10185,Industrial Product 186,Industrial,Raw Material,SUP1075,12.05,371,88,1620,14,High
+SKU10186,Apparel Product 187,Apparel,Raw Material,SUP1180,48.93,59,22,441,45,Critical
+SKU10187,Electronics Product 188,Electronics,Finished Good,SUP1105,10.86,420,176,2945,21,Low
+SKU10188,Healthcare Product 189,Healthcare,Raw Material,SUP1061,86.24,471,210,3422,14,High
+SKU10189,Automotive Product 190,Automotive,Finished Good,SUP1124,9.73,55,14,365,35,High
+SKU10190,Automotive Product 191,Automotive,Component,SUP1098,14.14,372,152,1296,31,Medium
+SKU10191,Industrial Product 192,Industrial,Finished Good,SUP1218,58.1,423,148,2419,17,Medium
+SKU10192,Industrial Product 193,Industrial,Finished Good,SUP1118,5.55,286,100,1884,13,Medium
+SKU10193,Industrial Product 194,Industrial,Raw Material,SUP1198,8.58,367,80,2301,17,Low
+SKU10194,Healthcare Product 195,Healthcare,Component,SUP1194,36.4,147,70,904,14,Critical
+SKU10195,Healthcare Product 196,Healthcare,Raw Material,SUP1194,49.12,79,32,463,16,High
+SKU10196,Electronics Product 197,Electronics,Raw Material,SUP1064,16.75,440,104,3119,21,Medium
+SKU10197,Automotive Product 198,Automotive,Raw Material,SUP1217,7.85,304,122,1880,36,Medium
+SKU10198,Apparel Product 199,Apparel,Component,SUP1203,78.13,413,136,3238,42,Medium
+SKU10199,Apparel Product 200,Apparel,Finished Good,SUP1206,11.6,309,75,1256,45,Critical
+SKU10200,Industrial Product 201,Industrial,Component,SUP1023,289.22,270,106,2101,10,Low
+SKU10201,Automotive Product 202,Automotive,Packaging,SUP1215,58.66,130,26,1015,22,Medium
+SKU10202,Electronics Product 203,Electronics,Finished Good,SUP1056,72.62,433,201,2936,18,Low
+SKU10203,Electronics Product 204,Electronics,Raw Material,SUP1204,145.05,121,30,873,23,Medium
+SKU10204,Automotive Product 205,Automotive,Component,SUP1013,7.13,236,60,1519,32,High
+SKU10205,Automotive Product 206,Automotive,Component,SUP1100,26.57,206,54,957,30,High
+SKU10206,Electronics Product 207,Electronics,Finished Good,SUP1073,7.01,421,193,1264,16,High
+SKU10207,Automotive Product 208,Automotive,Finished Good,SUP1174,20.66,97,23,486,18,Medium
+SKU10208,Grocery Product 209,Grocery,Packaging,SUP1209,35.48,334,101,1547,8,Medium
+SKU10209,Industrial Product 210,Industrial,Component,SUP1197,86.21,152,65,810,10,Medium
+SKU10210,Industrial Product 211,Industrial,Finished Good,SUP1119,13.21,359,135,1698,18,Low
+SKU10211,Healthcare Product 212,Healthcare,Component,SUP1063,31.65,449,128,3184,11,Low
+SKU10212,Automotive Product 213,Automotive,Component,SUP1054,302.89,252,114,1056,37,Medium
+SKU10213,Automotive Product 214,Automotive,Raw Material,SUP1211,45.35,72,35,235,40,Medium
+SKU10214,Grocery Product 215,Grocery,Finished Good,SUP1151,13.92,171,79,1274,6,High
+SKU10215,Healthcare Product 216,Healthcare,Component,SUP1126,39.37,210,78,1416,22,Low
+SKU10216,Electronics Product 217,Electronics,Raw Material,SUP1072,6.41,444,132,1416,10,High
+SKU10217,Automotive Product 218,Automotive,Packaging,SUP1008,4.52,240,113,883,37,Medium
+SKU10218,Apparel Product 219,Apparel,Raw Material,SUP1132,322.17,79,36,390,37,Critical
+SKU10219,Grocery Product 220,Grocery,Raw Material,SUP1185,4.39,380,161,2081,10,High
+SKU10220,Grocery Product 221,Grocery,Raw Material,SUP1057,15.25,141,53,885,11,Critical
+SKU10221,Grocery Product 222,Grocery,Component,SUP1015,115.07,132,44,840,10,High
+SKU10222,Healthcare Product 223,Healthcare,Finished Good,SUP1060,26.29,376,149,1583,19,Low
+SKU10223,Automotive Product 224,Automotive,Component,SUP1201,164.27,416,188,2425,25,Medium
+SKU10224,Industrial Product 225,Industrial,Raw Material,SUP1145,9.99,150,47,743,22,Low
+SKU10225,Automotive Product 226,Automotive,Component,SUP1189,6.54,205,101,1109,31,Low
+SKU10226,Healthcare Product 227,Healthcare,Raw Material,SUP1126,3.01,287,108,1545,22,Low
+SKU10227,Automotive Product 228,Automotive,Packaging,SUP1142,74.6,253,81,1762,28,High
+SKU10228,Electronics Product 229,Electronics,Component,SUP1018,38.36,399,124,2473,26,Medium
+SKU10229,Electronics Product 230,Electronics,Finished Good,SUP1064,101.79,377,149,1542,13,Critical
+SKU10230,Healthcare Product 231,Healthcare,Finished Good,SUP1065,151.33,66,32,427,14,Low
+SKU10231,Electronics Product 232,Electronics,Finished Good,SUP1073,6.36,93,35,464,24,Low
+SKU10232,Grocery Product 233,Grocery,Raw Material,SUP1057,22.63,209,90,982,5,Low
+SKU10233,Apparel Product 234,Apparel,Finished Good,SUP1102,45.65,282,110,1232,33,High
+SKU10234,Apparel Product 235,Apparel,Finished Good,SUP1180,41.62,89,35,395,43,Critical
+SKU10235,Automotive Product 236,Automotive,Component,SUP1117,126.91,474,158,3365,30,Low
+SKU10236,Grocery Product 237,Grocery,Finished Good,SUP1020,20.68,140,45,723,11,Medium
+SKU10237,Automotive Product 238,Automotive,Finished Good,SUP1176,75.24,290,79,2229,38,Low
+SKU10238,Industrial Product 239,Industrial,Raw Material,SUP1000,24.16,186,37,817,8,Medium
+SKU10239,Healthcare Product 240,Healthcare,Component,SUP1025,107.96,119,55,491,11,Low
+SKU10240,Apparel Product 241,Apparel,Component,SUP1102,35.8,137,43,482,42,Medium
+SKU10241,Healthcare Product 242,Healthcare,Finished Good,SUP1112,36.94,430,105,1970,16,Medium
+SKU10242,Electronics Product 243,Electronics,Packaging,SUP1202,32.19,166,79,1070,24,High
+SKU10243,Industrial Product 244,Industrial,Finished Good,SUP1130,82.3,63,25,244,29,Medium
+SKU10244,Apparel Product 245,Apparel,Packaging,SUP1095,30.75,343,126,2450,46,Critical
+SKU10245,Grocery Product 246,Grocery,Raw Material,SUP1031,70.75,209,91,815,11,Medium
+SKU10246,Apparel Product 247,Apparel,Raw Material,SUP1045,112.18,478,216,1842,50,Critical
+SKU10247,Automotive Product 248,Automotive,Component,SUP1058,8.45,378,78,2739,27,Low
+SKU10248,Grocery Product 249,Grocery,Packaging,SUP1129,14.35,400,140,2464,1,Critical
+SKU10249,Industrial Product 250,Industrial,Raw Material,SUP1139,19.43,66,32,386,24,Low
+SKU10250,Industrial Product 251,Industrial,Raw Material,SUP1036,8.04,372,140,1272,13,Medium
+SKU10251,Electronics Product 252,Electronics,Component,SUP1056,266.01,312,153,2295,20,Medium
+SKU10252,Grocery Product 253,Grocery,Component,SUP1035,20.02,401,182,2469,17,Medium
+SKU10253,Grocery Product 254,Grocery,Raw Material,SUP1153,16.89,104,21,557,8,Critical
+SKU10254,Industrial Product 255,Industrial,Raw Material,SUP1068,10.24,68,18,394,11,High
+SKU10255,Automotive Product 256,Automotive,Packaging,SUP1211,28.66,424,165,1396,32,Medium
+SKU10256,Apparel Product 257,Apparel,Raw Material,SUP1206,84.45,252,97,878,41,High
+SKU10257,Electronics Product 258,Electronics,Finished Good,SUP1202,61.81,165,44,1127,17,High
+SKU10258,Industrial Product 259,Industrial,Raw Material,SUP1115,54.05,66,16,317,19,Critical
+SKU10259,Healthcare Product 260,Healthcare,Finished Good,SUP1001,6.22,263,98,1894,13,Medium
+SKU10260,Industrial Product 261,Industrial,Component,SUP1046,19.38,493,210,2376,19,High
+SKU10261,Grocery Product 262,Grocery,Raw Material,SUP1101,19.61,243,73,1580,-3,Low
+SKU10262,Industrial Product 263,Industrial,Packaging,SUP1068,96.34,147,44,799,11,Medium
+SKU10263,Electronics Product 264,Electronics,Raw Material,SUP1135,118.8,256,63,851,14,Critical
+SKU10264,Apparel Product 265,Apparel,Finished Good,SUP1055,61.21,434,195,2765,46,Medium
+SKU10265,Electronics Product 266,Electronics,Finished Good,SUP1141,14.29,279,76,2226,22,Medium
+SKU10266,Healthcare Product 267,Healthcare,Component,SUP1134,99.19,476,220,3356,22,Medium
+SKU10267,Electronics Product 268,Electronics,Raw Material,SUP1085,77.61,111,39,368,17,Critical
+SKU10268,Electronics Product 269,Electronics,Raw Material,SUP1204,493.17,263,73,835,24,Medium
+SKU10269,Apparel Product 270,Apparel,Component,SUP1041,114.5,117,53,383,47,Low
+SKU10270,Grocery Product 271,Grocery,Component,SUP1086,163.13,393,156,1905,6,Medium
+SKU10271,Grocery Product 272,Grocery,Finished Good,SUP1199,152.55,155,66,968,0,High
+SKU10272,Electronics Product 273,Electronics,Component,SUP1074,63.15,140,43,903,21,High
+SKU10273,Apparel Product 274,Apparel,Finished Good,SUP1165,16.96,449,93,3350,44,Critical
+SKU10274,Healthcare Product 275,Healthcare,Component,SUP1061,19.85,188,50,825,12,Medium
+SKU10275,Industrial Product 276,Industrial,Finished Good,SUP1190,39.45,479,183,1534,18,High
+SKU10276,Grocery Product 277,Grocery,Finished Good,SUP1042,24.71,298,93,1822,19,High
+SKU10277,Healthcare Product 278,Healthcare,Component,SUP1179,3.1,346,108,2461,15,High
+SKU10278,Apparel Product 279,Apparel,Component,SUP1002,21.88,110,49,421,40,Low
+SKU10279,Apparel Product 280,Apparel,Finished Good,SUP1195,27.63,236,117,1852,39,Low
+SKU10280,Apparel Product 281,Apparel,Component,SUP1193,134.76,124,54,637,49,Medium
+SKU10281,Automotive Product 282,Automotive,Component,SUP1184,10.37,173,52,838,24,Low
+SKU10282,Electronics Product 283,Electronics,Packaging,SUP1091,98.14,153,45,1025,22,Low
+SKU10283,Grocery Product 284,Grocery,Component,SUP1035,14.14,184,83,1119,-4,Medium
+SKU10284,Apparel Product 285,Apparel,Component,SUP1178,6.86,67,20,488,45,High
+SKU10285,Grocery Product 286,Grocery,Raw Material,SUP1042,31.27,131,53,988,13,Medium
+SKU10286,Electronics Product 287,Electronics,Component,SUP1074,17.79,186,65,1207,14,Critical
+SKU10287,Electronics Product 288,Electronics,Raw Material,SUP1064,69.12,213,92,1130,23,Medium
+SKU10288,Industrial Product 289,Industrial,Finished Good,SUP1050,5.66,297,72,978,11,High
+SKU10289,Apparel Product 290,Apparel,Finished Good,SUP1084,11.87,384,175,3034,40,Medium
+SKU10290,Automotive Product 291,Automotive,Finished Good,SUP1144,57.27,237,115,752,26,High
+SKU10291,Apparel Product 292,Apparel,Packaging,SUP1152,24.87,165,53,593,31,Low
+SKU10292,Apparel Product 293,Apparel,Packaging,SUP1164,140.07,180,51,1088,39,Medium
+SKU10293,Apparel Product 294,Apparel,Component,SUP1089,8.95,74,33,523,45,Medium
+SKU10294,Industrial Product 295,Industrial,Raw Material,SUP1130,19.34,468,158,1463,18,High
+SKU10295,Electronics Product 296,Electronics,Component,SUP1210,53.66,92,41,592,26,Medium
+SKU10296,Healthcare Product 297,Healthcare,Packaging,SUP1005,5.07,357,169,2583,12,Low
+SKU10297,Industrial Product 298,Industrial,Component,SUP1212,5.14,296,93,1182,13,Low
+SKU10298,Industrial Product 299,Industrial,Finished Good,SUP1145,21.87,466,158,2335,21,Medium
+SKU10299,Industrial Product 300,Industrial,Component,SUP1071,44.75,464,147,3055,19,Medium
+SKU10300,Electronics Product 301,Electronics,Finished Good,SUP1182,27.44,285,59,1777,21,Low
+SKU10301,Electronics Product 302,Electronics,Raw Material,SUP1073,22.95,263,99,1218,14,Medium
+SKU10302,Grocery Product 303,Grocery,Finished Good,SUP1101,114.88,386,87,2369,6,Low
+SKU10303,Automotive Product 304,Automotive,Component,SUP1110,12.76,245,72,1575,29,Low
+SKU10304,Automotive Product 305,Automotive,Component,SUP1142,2.16,162,44,1151,29,Low
+SKU10305,Grocery Product 306,Grocery,Finished Good,SUP1066,13.47,250,118,1243,14,Low
+SKU10306,Automotive Product 307,Automotive,Raw Material,SUP1213,52.36,418,88,2020,31,Low
+SKU10307,Apparel Product 308,Apparel,Component,SUP1102,21.65,323,65,1441,41,Critical
+SKU10308,Grocery Product 309,Grocery,Component,SUP1086,78.8,482,120,3405,9,Medium
+SKU10309,Healthcare Product 310,Healthcare,Finished Good,SUP1037,63.45,395,114,2545,9,High
+SKU10310,Grocery Product 311,Grocery,Raw Material,SUP1014,115.23,269,120,904,5,High
+SKU10311,Electronics Product 312,Electronics,Raw Material,SUP1080,39.62,160,76,1027,15,High
+SKU10312,Healthcare Product 313,Healthcare,Component,SUP1079,404.5,446,183,1475,9,Medium
+SKU10313,Electronics Product 314,Electronics,Raw Material,SUP1135,132.14,293,135,2240,23,High
+SKU10314,Healthcare Product 315,Healthcare,Finished Good,SUP1163,30.98,471,113,3585,21,High
+SKU10315,Healthcare Product 316,Healthcare,Finished Good,SUP1017,25.75,286,86,1038,16,Medium
+SKU10316,Healthcare Product 317,Healthcare,Packaging,SUP1122,98.93,165,63,1142,11,Medium
+SKU10317,Industrial Product 318,Industrial,Finished Good,SUP1077,10.1,159,36,998,18,Medium
+SKU10318,Electronics Product 319,Electronics,Component,SUP1064,94.81,247,70,1150,16,Medium
+SKU10319,Industrial Product 320,Industrial,Packaging,SUP1036,186.89,162,72,1149,24,Medium
+SKU10320,Grocery Product 321,Grocery,Raw Material,SUP1040,115.24,397,158,2029,12,High
+SKU10321,Industrial Product 322,Industrial,Component,SUP1000,371.18,359,102,1400,12,High
+SKU10322,Healthcare Product 323,Healthcare,Component,SUP1143,28.8,416,199,2432,13,Low
+SKU10323,Grocery Product 324,Grocery,Raw Material,SUP1188,43.36,399,128,1770,2,Low
+SKU10324,Healthcare Product 325,Healthcare,Raw Material,SUP1194,29.39,363,85,1983,19,Low
+SKU10325,Electronics Product 326,Electronics,Finished Good,SUP1133,8.59,456,172,3591,28,Low
+SKU10326,Industrial Product 327,Industrial,Packaging,SUP1071,151.62,395,84,1647,21,Medium
+SKU10327,Automotive Product 328,Automotive,Component,SUP1114,11.4,218,85,1559,22,Medium
+SKU10328,Healthcare Product 329,Healthcare,Finished Good,SUP1112,665.43,458,120,1806,23,High
+SKU10329,Industrial Product 330,Industrial,Component,SUP1145,5.32,404,151,1783,14,Low
+SKU10330,Industrial Product 331,Industrial,Raw Material,SUP1155,61.33,293,94,2276,16,High
+SKU10331,Industrial Product 332,Industrial,Raw Material,SUP1168,25.54,489,186,3276,8,Medium
+SKU10332,Grocery Product 333,Grocery,Finished Good,SUP1108,21.41,121,37,814,-4,Medium
+SKU10333,Healthcare Product 334,Healthcare,Finished Good,SUP1060,24.16,115,42,488,14,Medium
+SKU10334,Apparel Product 335,Apparel,Component,SUP1082,395.19,303,120,1978,42,Low
+SKU10335,Apparel Product 336,Apparel,Component,SUP1076,100.7,60,19,315,44,Low
+SKU10336,Industrial Product 337,Industrial,Component,SUP1004,279.46,201,69,1465,15,Medium
+SKU10337,Industrial Product 338,Industrial,Packaging,SUP1075,39.85,203,57,612,22,High
+SKU10338,Industrial Product 339,Industrial,Component,SUP1000,23.5,304,149,1042,21,Medium
+SKU10339,Grocery Product 340,Grocery,Finished Good,SUP1066,39.29,163,38,706,12,Critical
+SKU10340,Industrial Product 341,Industrial,Finished Good,SUP1147,16.31,291,64,972,24,Critical
+SKU10341,Healthcare Product 342,Healthcare,Component,SUP1019,57.45,97,25,598,13,Low
+SKU10342,Electronics Product 343,Electronics,Finished Good,SUP1141,31.21,403,126,2929,18,Critical
+SKU10343,Grocery Product 344,Grocery,Raw Material,SUP1153,24.84,406,87,1433,2,Critical
+SKU10344,Grocery Product 345,Grocery,Component,SUP1088,25.62,330,77,2282,4,Medium
+SKU10345,Healthcare Product 346,Healthcare,Raw Material,SUP1037,46.64,213,56,664,21,Medium
+SKU10346,Grocery Product 347,Grocery,Finished Good,SUP1123,51.41,317,117,1462,4,Low
+SKU10347,Automotive Product 348,Automotive,Component,SUP1211,19.61,142,33,495,24,High
+SKU10348,Apparel Product 349,Apparel,Packaging,SUP1045,10.97,135,29,574,35,Medium
+SKU10349,Healthcare Product 350,Healthcare,Component,SUP1131,34.77,206,67,1478,13,Medium
+SKU10350,Healthcare Product 351,Healthcare,Finished Good,SUP1053,36.16,139,30,506,21,High
+SKU10351,Automotive Product 352,Automotive,Packaging,SUP1215,76.89,206,99,1254,23,Medium
+SKU10352,Automotive Product 353,Automotive,Raw Material,SUP1058,135.41,285,100,866,26,Low
+SKU10353,Grocery Product 354,Grocery,Raw Material,SUP1101,51.79,310,152,1843,10,Medium
+SKU10354,Electronics Product 355,Electronics,Component,SUP1056,39.0,237,112,1220,26,High
+SKU10355,Industrial Product 356,Industrial,Packaging,SUP1068,23.01,215,53,970,13,Low
+SKU10356,Grocery Product 357,Grocery,Raw Material,SUP1151,136.78,457,129,3256,11,Medium
+SKU10357,Apparel Product 358,Apparel,Finished Good,SUP1180,285.83,119,37,681,41,High
+SKU10358,Apparel Product 359,Apparel,Raw Material,SUP1084,988.75,96,31,758,37,Critical
+SKU10359,Industrial Product 360,Industrial,Component,SUP1190,47.24,407,166,2169,18,Medium
+SKU10360,Industrial Product 361,Industrial,Component,SUP1145,87.38,123,61,864,14,High
+SKU10361,Industrial Product 362,Industrial,Component,SUP1198,14.42,176,81,1043,23,Medium
+SKU10362,Electronics Product 363,Electronics,Finished Good,SUP1210,58.36,448,121,1770,16,Critical
+SKU10363,Healthcare Product 364,Healthcare,Packaging,SUP1029,50.07,135,63,974,17,Critical
+SKU10364,Apparel Product 365,Apparel,Raw Material,SUP1045,45.52,420,197,2227,46,Medium
+SKU10365,Industrial Product 366,Industrial,Component,SUP1219,37.53,452,165,2402,23,Critical
+SKU10366,Apparel Product 367,Apparel,Component,SUP1175,175.67,245,118,1544,48,Medium
+SKU10367,Industrial Product 368,Industrial,Component,SUP1003,119.12,88,38,680,10,Low
+SKU10368,Electronics Product 369,Electronics,Raw Material,SUP1064,11.02,212,54,1128,24,Low
+SKU10369,Industrial Product 370,Industrial,Component,SUP1147,44.83,264,77,873,22,Medium
+SKU10370,Industrial Product 371,Industrial,Finished Good,SUP1190,147.55,191,49,1186,14,High
+SKU10371,Automotive Product 372,Automotive,Finished Good,SUP1026,18.87,345,134,1681,27,High
+SKU10372,Apparel Product 373,Apparel,Finished Good,SUP1089,57.93,486,152,1748,44,Critical
+SKU10373,Healthcare Product 374,Healthcare,Raw Material,SUP1061,9.96,66,20,523,10,Critical
+SKU10374,Automotive Product 375,Automotive,Raw Material,SUP1217,6.82,269,103,1171,29,High
+SKU10375,Apparel Product 376,Apparel,Packaging,SUP1055,7.92,290,112,1029,41,High
+SKU10376,Industrial Product 377,Industrial,Finished Good,SUP1119,101.79,202,59,1521,21,High
+SKU10377,Electronics Product 378,Electronics,Raw Material,SUP1207,24.62,452,150,1942,25,Low
+SKU10378,Apparel Product 379,Apparel,Raw Material,SUP1165,32.89,105,48,591,48,Low
+SKU10379,Electronics Product 380,Electronics,Packaging,SUP1021,25.16,94,44,388,8,Critical
+SKU10380,Electronics Product 381,Electronics,Component,SUP1171,89.59,83,26,295,26,High
+SKU10381,Healthcare Product 382,Healthcare,Packaging,SUP1113,138.47,328,144,1718,18,Medium
+SKU10382,Industrial Product 383,Industrial,Component,SUP1004,48.17,168,82,816,24,Medium
+SKU10383,Automotive Product 384,Automotive,Raw Material,SUP1176,32.36,445,97,2843,32,Low
+SKU10384,Industrial Product 385,Industrial,Component,SUP1115,14.16,67,22,406,17,Low
+SKU10385,Electronics Product 386,Electronics,Component,SUP1105,112.24,470,135,2948,32,Medium
+SKU10386,Apparel Product 387,Apparel,Component,SUP1169,129.12,256,87,1680,50,Medium
+SKU10387,Industrial Product 388,Industrial,Raw Material,SUP1218,34.26,478,173,3760,19,High
+SKU10388,Electronics Product 389,Electronics,Raw Material,SUP1094,12.28,463,93,2451,23,Low
+SKU10389,Industrial Product 390,Industrial,Component,SUP1046,113.66,361,130,1234,24,High
+SKU10390,Electronics Product 391,Electronics,Raw Material,SUP1140,5.43,126,59,623,20,Low
+SKU10391,Industrial Product 392,Industrial,Raw Material,SUP1177,13.45,180,41,1302,15,High
+SKU10392,Healthcare Product 393,Healthcare,Finished Good,SUP1060,65.23,382,176,1868,19,High
+SKU10393,Healthcare Product 394,Healthcare,Raw Material,SUP1134,103.29,116,54,588,14,Low
+SKU10394,Healthcare Product 395,Healthcare,Finished Good,SUP1053,163.61,423,126,2438,8,Medium
+SKU10395,Automotive Product 396,Automotive,Raw Material,SUP1157,185.32,77,17,503,35,Critical
+SKU10396,Apparel Product 397,Apparel,Raw Material,SUP1093,311.69,360,109,2089,41,Low
+SKU10397,Electronics Product 398,Electronics,Finished Good,SUP1018,10.83,315,77,1787,19,Medium
+SKU10398,Electronics Product 399,Electronics,Component,SUP1158,77.53,382,105,2427,13,High
+SKU10399,Apparel Product 400,Apparel,Finished Good,SUP1181,141.06,288,115,1963,44,High
+SKU10400,Industrial Product 401,Industrial,Component,SUP1115,26.21,451,125,2092,13,Medium
+SKU10401,Apparel Product 402,Apparel,Component,SUP1028,96.81,181,54,817,39,Low
+SKU10402,Apparel Product 403,Apparel,Packaging,SUP1055,21.53,402,180,3075,51,Critical
+SKU10403,Electronics Product 404,Electronics,Finished Good,SUP1156,123.01,183,59,677,6,Critical
+SKU10404,Electronics Product 405,Electronics,Component,SUP1072,34.96,205,49,1579,12,High
+SKU10405,Apparel Product 406,Apparel,Packaging,SUP1002,56.9,306,67,980,46,High
+SKU10406,Electronics Product 407,Electronics,Finished Good,SUP1187,30.46,190,41,1149,24,Low
+SKU10407,Apparel Product 408,Apparel,Finished Good,SUP1070,27.37,420,134,2825,39,High
+SKU10408,Electronics Product 409,Electronics,Component,SUP1156,90.99,190,48,1183,23,Low
+SKU10409,Industrial Product 410,Industrial,Packaging,SUP1198,85.58,203,92,757,22,Low
+SKU10410,Electronics Product 411,Electronics,Finished Good,SUP1064,71.81,310,116,1960,26,Critical
+SKU10411,Apparel Product 412,Apparel,Component,SUP1055,19.57,248,113,1511,41,High
+SKU10412,Automotive Product 413,Automotive,Raw Material,SUP1184,114.82,238,56,840,35,High
+SKU10413,Industrial Product 414,Industrial,Packaging,SUP1050,40.14,168,54,1335,25,Low
+SKU10414,Automotive Product 415,Automotive,Finished Good,SUP1016,25.18,161,45,1139,28,High
+SKU10415,Automotive Product 416,Automotive,Raw Material,SUP1098,7.12,424,209,2949,31,High
+SKU10416,Automotive Product 417,Automotive,Component,SUP1217,5.81,409,159,3019,36,Medium
+SKU10417,Electronics Product 418,Electronics,Component,SUP1033,153.56,106,44,598,21,Medium
+SKU10418,Electronics Product 419,Electronics,Finished Good,SUP1210,16.4,246,63,1367,21,Critical
+SKU10419,Automotive Product 420,Automotive,Component,SUP1114,146.75,174,61,1344,22,Medium
+SKU10420,Electronics Product 421,Electronics,Packaging,SUP1074,45.1,107,36,389,19,High
+SKU10421,Industrial Product 422,Industrial,Component,SUP1075,23.9,94,32,507,15,Critical
+SKU10422,Grocery Product 423,Grocery,Raw Material,SUP1129,84.6,194,70,748,4,Critical
+SKU10423,Industrial Product 424,Industrial,Component,SUP1004,21.58,146,45,750,17,Medium
+SKU10424,Healthcare Product 425,Healthcare,Finished Good,SUP1143,48.36,186,54,1415,9,Medium
+SKU10425,Automotive Product 426,Automotive,Component,SUP1114,29.22,301,132,2266,26,Low
+SKU10426,Industrial Product 427,Industrial,Raw Material,SUP1119,19.1,493,167,2170,23,Critical
+SKU10427,Industrial Product 428,Industrial,Finished Good,SUP1218,43.07,82,24,341,19,Critical
+SKU10428,Grocery Product 429,Grocery,Finished Good,SUP1127,21.71,121,49,899,11,Medium
+SKU10429,Grocery Product 430,Grocery,Component,SUP1160,13.61,314,80,1822,7,High
+SKU10430,Apparel Product 431,Apparel,Raw Material,SUP1082,15.12,117,28,788,43,Low
+SKU10431,Grocery Product 432,Grocery,Component,SUP1137,1.86,78,20,579,7,Critical
+SKU10432,Industrial Product 433,Industrial,Raw Material,SUP1059,89.4,218,88,1380,2,Critical
+SKU10433,Apparel Product 434,Apparel,Packaging,SUP1165,80.65,409,195,1357,30,Critical
+SKU10434,Apparel Product 435,Apparel,Finished Good,SUP1152,186.58,450,176,2668,43,Medium
+SKU10435,Grocery Product 436,Grocery,Raw Material,SUP1086,42.56,363,108,1263,9,Medium
+SKU10436,Electronics Product 437,Electronics,Raw Material,SUP1202,24.58,303,72,2089,10,Medium
+SKU10437,Industrial Product 438,Industrial,Packaging,SUP1147,16.44,298,103,1467,24,High
+SKU10438,Apparel Product 439,Apparel,Packaging,SUP1002,73.65,187,89,805,51,Low
+SKU10439,Apparel Product 440,Apparel,Raw Material,SUP1022,35.16,214,102,1688,43,Medium
+SKU10440,Healthcare Product 441,Healthcare,Raw Material,SUP1112,55.3,203,76,804,14,Critical
+SKU10441,Industrial Product 442,Industrial,Packaging,SUP1012,37.29,109,40,549,16,High
+SKU10442,Grocery Product 443,Grocery,Packaging,SUP1199,14.86,418,138,1261,0,High
+SKU10443,Apparel Product 444,Apparel,Finished Good,SUP1181,46.52,293,82,2087,43,Medium
+SKU10444,Electronics Product 445,Electronics,Finished Good,SUP1208,2.44,355,156,2679,10,Low
+SKU10445,Grocery Product 446,Grocery,Finished Good,SUP1199,538.45,129,41,510,1,Low
+SKU10446,Industrial Product 447,Industrial,Finished Good,SUP1077,25.75,325,73,1495,16,Low
+SKU10447,Grocery Product 448,Grocery,Component,SUP1014,9.43,211,83,688,9,Critical
+SKU10448,Apparel Product 449,Apparel,Component,SUP1002,39.64,330,113,2359,46,High
+SKU10449,Electronics Product 450,Electronics,Finished Good,SUP1072,38.24,319,155,964,21,Medium
+SKU10450,Automotive Product 451,Automotive,Packaging,SUP1117,23.05,148,55,603,26,High
+SKU10451,Automotive Product 452,Automotive,Finished Good,SUP1114,4.49,98,30,661,30,Critical
+SKU10452,Apparel Product 453,Apparel,Component,SUP1193,6.23,257,66,982,50,Critical
+SKU10453,Industrial Product 454,Industrial,Component,SUP1036,677.91,467,159,2033,17,Critical
+SKU10454,Electronics Product 455,Electronics,Finished Good,SUP1187,27.72,220,101,822,15,Medium
+SKU10455,Automotive Product 456,Automotive,Finished Good,SUP1010,88.46,86,18,624,35,Medium
+SKU10456,Industrial Product 457,Industrial,Finished Good,SUP1219,6.78,299,89,901,25,High
+SKU10457,Electronics Product 458,Electronics,Component,SUP1073,37.0,165,76,1226,24,Critical
+SKU10458,Apparel Product 459,Apparel,Component,SUP1055,2.15,290,125,1978,55,Medium
+SKU10459,Healthcare Product 460,Healthcare,Finished Good,SUP1104,9.07,321,78,2143,11,High
+SKU10460,Industrial Product 461,Industrial,Finished Good,SUP1083,22.13,269,107,2059,19,Medium
+SKU10461,Apparel Product 462,Apparel,Component,SUP1191,21.97,467,166,3497,39,Low
+SKU10462,Automotive Product 463,Automotive,Finished Good,SUP1011,7.5,439,202,2319,31,Medium
+SKU10463,Apparel Product 464,Apparel,Finished Good,SUP1132,117.55,409,182,2528,46,Medium
+SKU10464,Automotive Product 465,Automotive,Raw Material,SUP1030,58.79,249,90,1989,23,Low
+SKU10465,Automotive Product 466,Automotive,Component,SUP1213,5.52,349,88,2762,37,Medium
+SKU10466,Healthcare Product 467,Healthcare,Finished Good,SUP1149,32.95,358,125,1127,13,High
+SKU10467,Grocery Product 468,Grocery,Finished Good,SUP1103,11.86,468,128,1831,10,Medium
+SKU10468,Electronics Product 469,Electronics,Finished Good,SUP1080,11.97,337,137,1863,15,High
+SKU10469,Electronics Product 470,Electronics,Packaging,SUP1210,4.09,339,155,1773,11,Low
+SKU10470,Automotive Product 471,Automotive,Finished Good,SUP1030,8.39,139,37,458,28,High
+SKU10471,Grocery Product 472,Grocery,Component,SUP1153,9.52,73,29,363,4,Medium
+SKU10472,Automotive Product 473,Automotive,Packaging,SUP1124,86.57,372,94,1699,34,Low
+SKU10473,Healthcare Product 474,Healthcare,Packaging,SUP1112,18.32,497,176,3775,16,High
+SKU10474,Industrial Product 475,Industrial,Component,SUP1000,38.34,91,22,289,17,Medium
+SKU10475,Automotive Product 476,Automotive,Component,SUP1189,78.45,124,51,566,33,Low
+SKU10476,Apparel Product 477,Apparel,Raw Material,SUP1178,64.22,471,222,3105,54,Critical
+SKU10477,Apparel Product 478,Apparel,Finished Good,SUP1041,18.08,179,68,1255,44,Medium
+SKU10478,Industrial Product 479,Industrial,Component,SUP1197,2.04,163,62,1136,15,Medium
+SKU10479,Electronics Product 480,Electronics,Raw Material,SUP1064,169.22,299,133,1167,28,Medium
+SKU10480,Healthcare Product 481,Healthcare,Packaging,SUP1037,94.99,67,25,218,20,Critical
+SKU10481,Automotive Product 482,Automotive,Component,SUP1100,170.53,133,32,697,30,High
+SKU10482,Grocery Product 483,Grocery,Component,SUP1042,129.5,89,19,443,3,Medium
+SKU10483,Automotive Product 484,Automotive,Raw Material,SUP1176,434.27,65,13,486,35,Low
+SKU10484,Healthcare Product 485,Healthcare,Raw Material,SUP1149,27.75,388,152,2580,19,Low
+SKU10485,Automotive Product 486,Automotive,Raw Material,SUP1124,30.81,302,136,2133,33,Medium
+SKU10486,Grocery Product 487,Grocery,Component,SUP1014,109.01,109,41,411,0,High
+SKU10487,Automotive Product 488,Automotive,Raw Material,SUP1189,64.01,446,160,1970,27,Medium
+SKU10488,Automotive Product 489,Automotive,Raw Material,SUP1052,17.54,426,105,2030,28,High
+SKU10489,Healthcare Product 490,Healthcare,Raw Material,SUP1001,60.53,452,122,1366,15,High
+SKU10490,Healthcare Product 491,Healthcare,Component,SUP1179,9.63,430,183,1402,18,Critical
+SKU10491,Automotive Product 492,Automotive,Component,SUP1157,38.47,186,82,810,25,Low
+SKU10492,Automotive Product 493,Automotive,Component,SUP1100,38.19,408,84,1308,28,Low
+SKU10493,Industrial Product 494,Industrial,Packaging,SUP1218,243.53,173,74,764,9,High
+SKU10494,Apparel Product 495,Apparel,Component,SUP1120,13.48,446,125,2186,43,Low
+SKU10495,Healthcare Product 496,Healthcare,Component,SUP1005,164.14,92,21,629,18,High
+SKU10496,Automotive Product 497,Automotive,Component,SUP1217,13.37,443,111,2473,38,High
+SKU10497,Apparel Product 498,Apparel,Component,SUP1082,26.66,325,82,1089,50,Critical
+SKU10498,Electronics Product 499,Electronics,Component,SUP1173,22.51,206,81,1510,16,Medium
+SKU10499,Electronics Product 500,Electronics,Component,SUP1048,14.84,184,90,1070,19,Critical
